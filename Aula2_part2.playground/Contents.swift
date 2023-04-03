@@ -28,3 +28,13 @@ if numero2 > numero1 {
 } else {
     print("Número 1 é igual ao número 2")
 }
+
+
+
+
+// OPERADOR TERNÁRIO
+// Existe uma maneira mais simples e compacta de representarmos o comando if - else. Esse operador se chama ternário e é representado da seguinte forma:
+var idadePessoa = 20
+idadePessoa >= 18 ? print("Maior de idade") : print("Não é maior de idade")
+
+//Basicamente, esse comando utiliza de caracteres especiais como o ponto de interrogação e dois pontos. Se a condição for verdadeira, a primeira expressão será executada (que vem antes dos dois pontos). Caso for falsa, a segunda expressão será executada.
